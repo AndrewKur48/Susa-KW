@@ -1,0 +1,7 @@
+Pertama tak cobak tanyak ke puskom lagi untuk kepastian pengupdateanya
+kalau memang tetap tidak ada kepastian, aku tanya alasan kenapa tidak di upgrade secepatnya
+kalau emang bisa di upgrade secepatnya mungkin bakal tak datangi sesering mungkin
+dan kalau tetap tidak di upgrade upgrade atau
+kalau alasanya emang tidak memungkinkan untuk upgrade secepatnya paling aku akan backup data
+web nya sesering mungkin untuk jaga jaga kalu misal terjadi sesuatu sebelum phpnya di update
+tetapi tetap tak datangi sesering mungkin(sebisa mungkin).
