@@ -14,6 +14,9 @@ h4{
     text-align:center;
     margin:5px;
 }
+.container-fluid{
+    width:100%;
+}
 .pulang{
     cursor:pointer;
     color:black;
@@ -183,17 +186,7 @@ h4{
     font-size:22px;
     font-family:Helvetica;
 }
-.konteks{
-    min-width:200px;
-    max-width:100%;
-}
-.iklanBawah{
-    margin-top:2.5px;
-    margin-bottom:2.5px;
-    width:100%;
-    min-height:200px;
-    padding:0.5px;
-}
+
 .kiri{
     float:left;
     color:grey;
@@ -211,8 +204,226 @@ h4{
     background-color:whitesmoke;
     padding-bottom:5px;
 }
-@media only screen and (min-width:768px) and (max-width:992px){
-    .bag{
+
+#pilihLaptop{
+    width:100%;
+    padding:20px;
+    margin:10px 0;
+}
+
+#pilihLaptop:hover{
+    background-color:lightGray;
+}
+.laptopMini{
+    width:130px;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+}
+.judulMiniLaptop{
+    text-align:center;
+    width:100px;
+    margin:0 auto;
+}
+.descMiniLaptop{
+    font-size:12px;
+    width:140px;
+    color:gray;
+    text-align:center;
+    margin-top:-10px;
+    margin:0 auto;
+}
+
+@media only screen and (max-width:575){
+    .laptopMini{
+        width:75px;
+        height:60px;
+        display:flex;
+        justify-content: center;
+        margin:0 auto;
+    }
+    .judulMiniLaptop{
+        text-align:center;
+        width:60px;
+        margin:0 auto;
+    }
+    .descMiniLaptop{
+        font-size:12px;
+        width:80px;
+        color:gray;
+        text-align:center;
+        margin-top:-10px;
+        margin:0 auto;
+    }
+    .b{
+        display:none;
+    }
+    .c{
+        display:none;
+    }
+    .d{
+        display:none;
+    }
+    .e{
+        display:none;
+    }
+    .f{
+        display:none;
+    }
+    .g{
+        display:none;
+    }
+    .h{
+        display:none;
+    }
+    .i{
+        display:none;
+    }
+    .j{
+        display:none;
+    }
+    .k{
+        display:none;
+    }
+    .l{
+        display:none;
+    }
+    .m{
+        display:none;
+    }
+    .n{
+        display:none;
+    }
+}
+@media only screen and (max-width:767px){
+    .c{
+        display:none;
+    }
+    .d{
+        display:none;
+    }
+    .e{
+        display:none;
+    }
+    .f{
+        display:none;
+    }
+    .g{
+        display:none;
+    }
+    .h{
+        display:none;
+    }
+    .i{
+        display:none;
+    }
+    .j{
+        display:none;
+    }
+    .k{
+        display:none;
+    }
+    .l{
+        display:none;
+    }
+    .m{
+        display:none;
+    }
+    .n{
+        display:none;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .d{
+        display:none;
+    }
+    .e{
+        display:none;
+    }
+    .f{
+        display:none;
+    }
+    .g{
+        display:none;
+    }
+    .h{
+        display:none;
+    }
+    .i{
+        display:none;
+    }
+    .j{
+        display:none;
+    }
+    .k{
+        display:none;
+    }
+    .l{
+        display:none;
+    }
+    .m{
+        display:none;
+    }
+    .n{
+        display:none;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .e{
+        display:none;
+    }
+    .f{
+        display:none;
+    }
+    .g{
+        display:none;
+    }
+    .h{
+        display:none;
+    }
+    .i{
+        display:none;
+    }
+    .j{
+        display:none;
+    }
+    .k{
+        display:none;
+    }
+    .l{
+        display:none;
+    }
+    .m{
+        display:none;
+    }
+    .n{
+        display:none;
+    }
+}
+@media only screen and (min-width:1200px){
+    .g{
+        display:none;
+    }
+    .h{
+        display:none;
+    }
+    .i{
+        display:none;
+    }
+    .j{
+        display:none;
+    }
+    .k{
+        display:none;
+    }
+    .l{
+        display:none;
+    }
+    .m{
+        display:none;
+    }
+    .n{
         display:none;
     }
 }
