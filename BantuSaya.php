@@ -6,6 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href = "css/bootstrap.min.css" rel = "stylesheet" type = "text/css">
         <title>zenbook13 kw 5</title>
+        <?php
+            header('Refresh: 5;url=Laptop.html');
+        ?>
     </head>
     <body>
         <nav class="navbar-light bg-light navbar navbar-expand-md">
@@ -146,6 +149,7 @@
             if(isset($_POST['saran'])){
                     echo"<h2>Kami cuma punya produk ini di beli saja</h2>";
             }
+            
         ?>
         <hr>
         <h1 id = "top">ZenBook 13 UX333FN</h1>
