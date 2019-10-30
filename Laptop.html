@@ -5,9 +5,6 @@
         <link rel="stylesheet" type="text/css" href="Laptop.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href = "css/bootstrap.min.css" rel = "stylesheet" type = "text/css">
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
         <title>Laptop</title>
     </head>
     <body>
@@ -233,52 +230,131 @@
                         <p>Bantu Saya Memilih</p>
                     </div>
                 </div>
-                <div class="row bantuSaya">
-                    <div id="bantuSaya" class="col-lg-3 col-sm-6">
-                        <p class = "judulBantu">Jenis laptop seperti apa yang anda cari?</p>
-                        <form>
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Sebuah Laptop tradisional yang mudah bagi saya untuk melakukan komputasi sehari-hari</br></span> 
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Sebuah laptop yang fleksibel gbagi saya untuk melakukan presentasi di tempat kerja dan dapat menikmati hiburan kapan saja</br></span>
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Sebuah lapotop dengan keyboard yang dapat dilepas sehingga saya bisa membawanya seperti tablet ketika pergi keluar</br></span>
-                        </form>
-                    </div>
-                    <div id="bantuSaya" class="col-lg-3  col-sm-6">
-                        <p class = "judulBantu">Apa tujuan Anda menggunakan laptop?</p>
-                        <form>
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Saya hanya perlu untuk browsing web dan cek email</br> </span>
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Saya suka menonton film dan mendengarkan musik</br></span>
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Saya membutuhkan laptop dengan kekuatan terbaik untuk pekerjaan berat dan multitasking</br></span>
-                        </form>
-                    </div>
-                    <div id="bantuSaya" class="col-lg-3 col-sm-6">
-                        <p class = "judulBantu">Hal terpenting apa yang Anda perhatikan saat membeli laptop baru?</p>
-                        <form>
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Saya membutuhkan laptop dengan performa yang kuat</br> </span>
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Saya ingin laptop saya menonjol. Sebuah laptop yang terlihat seperti semua laptop lain bukan untuk saya</br></span>
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Harga terbaik adalah semua yang saya pikirkan</br></span>
-                        </form>
-                    </div>
-                    <div id="bantuSaya" class="col-lg-3 col-sm-6">
-                        <p class = "judulBantu">Bagaimana Anda menggunakan laptop Anda?</p>
-                        <form>
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Saya lebih sering menggunakannya di dalam ruangan</br></span> 
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Terkadang saya suka membawanya keluar bersama saya</br></span>
-                            <input class = "pilih" type = "radio" name = "jenis"><span class = "isiPilih"> Ini seperti teman saya yang sangat penting</br></span>
-                        </form>
-                    </div>
-                </div>
-                <div class = "row lihat">
-                    <div class ="col-12">           
-                        <span class = "isilihat">Lihat Produk saya</span>
-                    </div>
-                </div>
-                <div class = "row saran">
-                        <div class ="col-12">
-                            <span class = "isisaran">Semua Produk yang Disarankan ></span>
+                <form action="BantuSaya.php" method = "POST">
+                    <div class="row bantuSaya">
+                        <div id="bantuSaya" class="col-lg-3 col-sm-6">
+                            <p class = "judulBantu">Jenis laptop seperti apa yang anda cari?</p>                        
+                            <input class = "pilih" type = "radio" name = "jenis" value = "Sebuah Laptop tradisional yang mudah bagi saya untuk melakukan komputasi sehari-hari"><span class = "isiPilih"> Sebuah Laptop tradisional yang mudah bagi saya untuk melakukan komputasi sehari-hari</br></span> 
+                            <input class = "pilih" type = "radio" name = "jenis" value = "Sebuah laptop yang fleksibel bagi saya untuk melakukan presentasi di tempat kerja dan dapat menikmati hiburan kapan saja"><span class = "isiPilih"> Sebuah laptop yang fleksibel bagi saya untuk melakukan presentasi di tempat kerja dan dapat menikmati hiburan kapan saja</br></span>
+                            <input class = "pilih" type = "radio" name = "jenis" value = "Sebuah lapotop dengan keyboard yang dapat dilepas sehingga saya bisa membawanya seperti tablet ketika pergi keluar"><span class = "isiPilih"> Sebuah lapotop dengan keyboard yang dapat dilepas sehingga saya bisa membawanya seperti tablet ketika pergi keluar</br></span>
+                        </div>
+                        <div id="bantuSaya" class="col-lg-3  col-sm-6">
+                            <p class = "judulBantu">Apa tujuan Anda menggunakan laptop?</p>
+                            <input class = "pilih" type = "radio" name = "apa" value = "Saya hanya perlu untuk browsing web dan cek email"><span class = "isiPilih"> Saya hanya perlu untuk browsing web dan cek email</br> </span>
+                            <input class = "pilih" type = "radio" name = "apa" value = "Saya suka menonton film dan mendengarkan musik"><span class = "isiPilih"> Saya suka menonton film dan mendengarkan musik</br></span>
+                            <input class = "pilih" type = "radio" name = "apa" value = "Saya membutuhkan laptop dengan kekuatan terbaik untuk pekerjaan berat dan multitasking"><span class = "isiPilih"> Saya membutuhkan laptop dengan kekuatan terbaik untuk pekerjaan berat dan multitasking</br></span>
+                        </div>
+                        <div id="bantuSaya" class="col-lg-3 col-sm-6">
+                            <p class = "judulBantu">Hal terpenting apa yang Anda perhatikan saat membeli laptop baru?</p>
+                            <input class = "pilih" type = "radio" name = "hal" value = "Saya membutuhkan laptop dengan performa yang kuat"><span class = "isiPilih"> Saya membutuhkan laptop dengan performa yang kuat</br> </span>
+                            <input class = "pilih" type = "radio" name = "hal" value = "Saya ingin laptop saya menonjol. Sebuah laptop yang terlihat seperti semua laptop lain bukan untuk saya"><span class = "isiPilih"> Saya ingin laptop saya menonjol. Sebuah laptop yang terlihat seperti semua laptop lain bukan untuk saya</br></span>
+                            <input class = "pilih" type = "radio" name = "hal" value = "Harga terbaik adalah semua yang saya pikirkan"><span class = "isiPilih"> Harga terbaik adalah semua yang saya pikirkan</br></span>
+                        </div>
+                        <div id="bantuSaya" class="col-lg-3 col-sm-6">
+                            <p class = "judulBantu">Bagaimana Anda menggunakan laptop Anda?</p>
+                            <input class = "pilih" type = "radio" name = "bagaimana" value = "Saya lebih sering menggunakannya di dalam ruangan"><span class = "isiPilih"> Saya lebih sering menggunakannya di dalam ruangan</br></span> 
+                            <input class = "pilih" type = "radio" name = "bagaimana" value = "Terkadang saya suka membawanya keluar bersama saya"><span class = "isiPilih"> Terkadang saya suka membawanya keluar bersama saya</br></span>
+                            <input class = "pilih" type = "radio" name = "bagaimana" value = "Ini seperti teman saya yang sangat penting"><span class = "isiPilih"> Ini seperti teman saya yang sangat penting</br></span>
                         </div>
                     </div>
+                    <div class = "row lihat">
+                        <div class ="col-12">           
+                            <input type ="submit"  name = "submit" class = "isilihat" value = "Lihat Produk saya">
+                        </div>
+                    </div>
+                    <div class = "row saran">
+                        <div class ="col-12">
+                            <input type = "submit" name = "saran" class = "isisaran" value = "Semua Produk yang Disarankan">
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
+        <div id="produkMenu" class="produk">
+                <div class="menuProduk">
+                    <ul>
+                        <li id="phone">Phone</li>
+                        <li id="laptop">Laptop & PC 2-in-1</li>
+                        <li>Motherboards</li>
+                        <li>Graphics Cards</li>
+                        <li>Desktop & PC All-in-One</li>
+                        <li>Display & Projector</li>
+                        <li>Networking</li>
+                        <li>Sound</li>
+                        <li>Peripheral & Data Storage</li>
+                        <li>Gaming</li>
+                        <li>Power-Supply-Unit</li>
+                        <li>Server & Wrokstation Komersial</li>
+                    </ul>
+                </div>
+                <div class="isiProduk">
+                    <div id="isiProdukPhone" class="isiProdukM">
+                        <a href = "Laptop.html" class = laptopButton ><p>Phone</p></a>
+                        <ul>
+                            <li>Zenfone Max</li>
+                            <li>Gaming Phone</li>
+                            <li>ZenFone</li>
+                            <li>ZenFone Live</li>
+                            <li>ZenFone Selfie</li>
+                            <li>ZenFone Go</li>
+                        </ul>
+                    </div>
+                    <div id="isiProdukLaptop" class="isiProdukM">
+                        <a href = "Laptop.html" class = laptopButton ><p>Laptop</p></a>
+                        <ul>
+                            <li>ZenBook</li>
+                            <li>VivoBook</li>
+                            <li>ROG</li>
+                            <li>TUF-Series</li>
+                            <li>FX-Series</li>
+                            <li>ChromeBook</li>
+                            <li>E-Series</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="whatM">
+                <div class="satu">
+                    <img src="paint1.jpg" alt="gambar1">
+                    <p>Wow</p>
+                </div>
+                <div class="satu">
+                    <img src="paint2.jpg" alt="gambar2">
+                    <p>Lorem ipsum</p>
+                </div>
+                <div class="satu">
+                    <img src="paint3.jpg" alt="gambar3">
+                    <p>susa</p>
+                </div>
+            </div>
+            <div id="komerM"class="produk">
+                <div class="menuProduk">
+                    <ul>
+                        <li>Overview</li>
+                        <li>Produk</li>
+                        <li>Business Size</li>
+                        <li id="solution">Solution</li>
+                        <li>Industry</li>
+                    </ul>
+                </div>
+                <div class="isiProduk">
+                    <div id="isiKomerSolution" class="isiProdukM">
+                        <ul>
+                            <li>Mobile Solution</li>
+                            <li>Business Protection</li>
+                            <li>Improve Performance</li>
+                            <li>Enchance Communication</li>
+                            <li>Green Office</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="Servis">
+    
+            </div>
+            <div class="rog">
+    
+            </div>
         <div id="footer">
             <ul class="isiFooter">
                 <li class = "listfooter">
@@ -395,5 +471,8 @@
             <p class="kanan"> Kebijakan Privasi | Terms of Use Notice | &copy;ASUSTeK Computer Inc. All right reserved.</p>
         </div>
         <script type="text/javascript" src="home.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>

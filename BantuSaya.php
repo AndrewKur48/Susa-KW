@@ -35,90 +35,119 @@
                 </div>
         </nav>
         <div id="produkMenu" class="produk">
-                        <div class="menuProduk">
-                            <ul>
-                                <li id="phone">Phone</li>
-                                <li id="laptop">Laptop & PC 2-in-1</li>
-                                <li>Motherboards</li>
-                                <li>Graphics Cards</li>
-                                <li>Desktop & PC All-in-One</li>
-                                <li>Display & Projector</li>
-                                <li>Networking</li>
-                                <li>Sound</li>
-                                <li>Peripheral & Data Storage</li>
-                                <li>Gaming</li>
-                                <li>Power-Supply-Unit</li>
-                                <li>Server & Wrokstation Komersial</li>
-                            </ul>
-                        </div>
-                        <div class="isiProduk">
-                            <div id="isiProdukPhone" class="isiProdukM">
-                                <a href = "Laptop.html" class = laptopButton ><p>Phone</p></a>
-                                <ul>
-                                    <li>Zenfone Max</li>
-                                    <li>Gaming Phone</li>
-                                    <li>ZenFone</li>
-                                    <li>ZenFone Live</li>
-                                    <li>ZenFone Selfie</li>
-                                    <li>ZenFone Go</li>
-                                </ul>
-                            </div>
-                            <div id="isiProdukLaptop" class="isiProdukM">
-                                <a href = "Laptop.html" class = laptopButton ><p>Laptop</p></a>
-                                <ul>
-                                    <li>ZenBook</li>
-                                    <li>VivoBook</li>
-                                    <li>ROG</li>
-                                    <li>TUF-Series</li>
-                                    <li>FX-Series</li>
-                                    <li>ChromeBook</li>
-                                    <li>E-Series</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="whatM">
-                        <div class="satu">
-                            <img src="paint1.jpg" alt="gambar1">
-                            <p>Wow</p>
-                        </div>
-                        <div class="satu">
-                            <img src="paint2.jpg" alt="gambar2">
-                            <p>Lorem ipsum</p>
-                        </div>
-                        <div class="satu">
-                            <img src="paint3.jpg" alt="gambar3">
-                            <p>susa</p>
-                        </div>
-                    </div>
-                    <div id="komerM"class="produk">
-                        <div class="menuProduk">
-                            <ul>
-                                <li>Overview</li>
-                                <li>Produk</li>
-                                <li>Business Size</li>
-                                <li id="solution">Solution</li>
-                                <li>Industry</li>
-                            </ul>
-                        </div>
-                        <div class="isiProduk">
-                            <div id="isiKomerSolution" class="isiProdukM">
-                                <ul>
-                                    <li>Mobile Solution</li>
-                                    <li>Business Protection</li>
-                                    <li>Improve Performance</li>
-                                    <li>Enchance Communication</li>
-                                    <li>Green Office</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="Servis">
-            
-                    </div>
-                    <div class="rog">
-            
-                    </div>
+            <div class="menuProduk">
+                <ul>
+                    <li id="phone">Phone</li>
+                    <li id="laptop">Laptop & PC 2-in-1</li>
+                    <li>Motherboards</li>
+                    <li>Graphics Cards</li>
+                    <li>Desktop & PC All-in-One</li>
+                    <li>Display & Projector</li>
+                    <li>Networking</li>
+                    <li>Sound</li>
+                    <li>Peripheral & Data Storage</li>
+                    <li>Gaming</li>
+                    <li>Power-Supply-Unit</li>
+                    <li>Server & Wrokstation Komersial</li>
+                </ul>
+            </div>
+            <div class="isiProduk">
+                <div id="isiProdukPhone" class="isiProdukM">
+                    <a href = "Laptop.html" class = laptopButton ><p>Phone</p></a>
+                    <ul>
+                        <li>Zenfone Max</li>
+                        <li>Gaming Phone</li>
+                        <li>ZenFone</li>
+                        <li>ZenFone Live</li>
+                        <li>ZenFone Selfie</li>
+                        <li>ZenFone Go</li>
+                    </ul>
+                </div>
+                <div id="isiProdukLaptop" class="isiProdukM">
+                    <a href = "Laptop.html" class = laptopButton ><p>Laptop</p></a>
+                    <ul>
+                        <li>ZenBook</li>
+                        <li>VivoBook</li>
+                        <li>ROG</li>
+                        <li>TUF-Series</li>
+                        <li>FX-Series</li>
+                        <li>ChromeBook</li>
+                        <li>E-Series</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="whatM">
+            <div class="satu">
+                <img src="paint1.jpg" alt="gambar1">
+                <p>Wow</p>
+            </div>
+            <div class="satu">
+                <img src="paint2.jpg" alt="gambar2">
+                <p>Lorem ipsum</p>
+            </div>
+            <div class="satu">
+                <img src="paint3.jpg" alt="gambar3">
+                <p>susa</p>
+            </div>
+        </div>
+        <div id="komerM"class="produk">
+            <div class="menuProduk">
+                <ul>
+                    <li>Overview</li>
+                    <li>Produk</li>
+                    <li>Business Size</li>
+                    <li id="solution">Solution</li>
+                    <li>Industry</li>
+                </ul>
+            </div>
+            <div class="isiProduk">
+                <div id="isiKomerSolution" class="isiProdukM">
+                    <ul>
+                        <li>Mobile Solution</li>
+                        <li>Business Protection</li>
+                        <li>Improve Performance</li>
+                        <li>Enchance Communication</li>
+                        <li>Green Office</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="Servis">
+
+        </div>
+        <div class="rog">
+
+        </div>
+        <?php
+            if (isset($_POST['submit'])) {
+                if(isset($_POST['jenis'])||isset($_POST['apa'])||isset($_POST['hal'])||isset($_POST['bagaimana'])){
+                        echo "<h2>Karena Anda memilih: </h2>";
+                }
+                if(isset($_POST['jenis'])){
+                        echo "<h4>".$_POST['jenis'].",</h4><br>";
+                }
+                if(isset($_POST['apa'])){
+                        echo "<h4>".$_POST['apa'].",</h4><br>";
+                }
+                if(isset($_POST['hal'])){
+                        echo "<h4>".$_POST['hal'].",</h4><br>";
+                }
+                if(isset($_POST['bagaimana'])){
+                        echo "<h4>".$_POST['bagaimana'].",</h4><br>";
+                }
+                if(isset($_POST['jenis'])||isset($_POST['apa'])||isset($_POST['hal'])||isset($_POST['bagaimana'])){
+                        echo "<h2> Maka laptop ini adalah yang paling cocok buat anda!</h2>";  
+                }
+                else{
+                        echo "<h2>Beli saja produk ini kalau anda bingung!</h2>";
+                }
+            }
+            if(isset($_POST['saran'])){
+                    echo"<h2>Kami cuma punya produk ini di beli saja</h2>";
+            }
+        ?>
+        <hr>
         <h1 id = "top">ZenBook 13 UX333FN</h1>
         <hr>
         <h2>Finish/Color</h2>
@@ -178,7 +207,7 @@
         <h2>Wireless Connectivity</h2>
         <h4><strong>Wi-Fi</strong></h4>
         <h4>Dual-band 802.11ac gigabit-class Wi-Fi</h4>
-        <h4><stong>bluetooth</stong><br> Bluetooth 5.0</h4>
+        <h4><strong>bluetooth</strong><br> Bluetooth 5.0</h4>
         <hr>
         <h2>Battery and Power</h2>
         <h4>Up to 14 hours battery life3<br>
@@ -189,7 +218,7 @@
         </h4>
         <hr>
         <h2>Weight and Dimensions</h2>
-        <h4><storng>Height:</storng> 1.68cm(0.67 inches)<br>
+        <h4><strong>Height:</strong> 1.68cm(0.67 inches)<br>
             <strong>Width:</strong> 30.2cm(11.89 inches)<br>
             <strong>Depth:</strong> 18.9cm(7.44 inches)<br>
             <strong>Weight:</strong> Width standard display:Approx. 1.19kg

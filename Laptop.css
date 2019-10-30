@@ -146,11 +146,17 @@ h4{
 }
 .isisaran{
     color:rgb(43, 148, 247);
-    font-size:12px;
-    text-align:center;
+    background-color:white;
+    border:none;
+    padding:8px 40px;
+    font-size:13px;
+    width:250px;
     display:flex;
     justify-content: center;
-    margin-top:15px;
+    margin:0 auto;
+}
+.isisaran:hover{
+    color:rgb(0, 132, 255);
 }
 .superFooter{
     background-color:whitesmoke;
